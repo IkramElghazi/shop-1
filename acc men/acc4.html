@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="/shop/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/shop/css/lightslider.css"/>
+    <link rel="stylesheet" type="text/css" href="/shop/css/choix.css"/>
+    <script src="js/Jquery.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script link rel="shortcut icon" href="/shop/images/fav-icon.png"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" ; crossorigin="anonymous"></script>
+    <title> LOGO</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+.small-img-group{
+    display: flex;
+    justify-content:space-between;
+}
+.small-img-col{
+    flex-basis: 30%;
+    cursor: pointer;
+}
+.product select{
+    display: block;
+    padding: 5px 10px;
+}
+.sproduct input{
+    width:50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.sproduct input:focus{
+    outline: none;
+}
+.buy-btn{
+    background:  #0b9d8a;
+    opacity: 1;
+    transition: 0,3s all;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav> 
+        <!--social-links-and-phone-number----------------->
+ <div class="social-call">
+     <!--social-links--->
+     <div class="social">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+     </div>
+     <!--phone-number------>
+     <div class="phone">
+         <span>Call: +123456789</span>
+     </div>
+ </div>
+ <!--menu-bar----------------------------------------->
+ <div class="navigation">
+     <!--logo------------>
+     <a href="#" class="logo" >
+         <img src="/shop/images/logo.png"/>
+     </a>
+     <!--menu-icon------------->
+     <div class="toggle"></div>
+     <!--menu----------------->
+     <ul class="menu">
+         <li><a href="/shop/navbar.html">Home</a> </li>
+         <li><a href="/shop/men.html">Men</a>
+         <span class="sale-lable">Sale</span>
+     </li>
+         <li><a href="/shop/women.html">Women</a></li>
+         <li><a href="/shop/kids.html">Kids</a></li>
+     </ul>
+
+     <div class="right-menu">
+
+         <a href="javascript:void(0);" class="user">
+             <i class="far fa-user"></i>
+         </a>
+         <a href="panier.html">
+             <i class="fas fa-shopping-cart">
+                 <span class="num-cart-product">0</span>
+             </i>
+         </a>
+     </div>
+     </div>
+ </nav>
+
+
+  <section class="container sproduct my-5 pt-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1"  width="30%" src="/shop/images/men-ac/4.jpg" id="MainImg" alt="">
+           
+            <div class="small-img-group">
+                    <div class="small-img-col">
+                    <img src="/shop/images/men-ac/44.jpg" width="40%" class="small-img" alt="">  
+                    <img src="/shop/images/men-ac/444.jpg" width="40%" class="small-img" alt="">    
+                    </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+                    <h6> Men</h6>
+                    <h3 class="py-2"> Men's Fashion </h3>
+                    <h2>129 MAD</h2> 
+                    <select class="my-3">
+                        <option> select size</option>
+                        <option> XS </option>
+                        <option> S </option>
+                        <option> M </option>
+                        <option> L </option>
+                        <option> XL</option>
+                        <option> XXL</option>
+                        <option> XXXL</option>
+                    </select>    
+                <input type="number" value="1"><br><br>
+                <button class="buy-btn "> Add to Cart </button><br>
+                <h4 class="mt-5 mb-5"> Product Details </h4>
+                <span>
+                Grand choix de t-shirts et polos pour homme sur LOGO <br>
+                    ✓ Livraisons et retours gratuits sur la plupart des commandes* <br>
+                    ✓ Essayez d'abord, payez après !<br>
+                </span>
+        </div>   
+    </div>
+</section>
+
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<section class="new-arrival">
+    <div class="arrival-heading">
+        <strong> ACCESSOIRES </strong>
+        <p> We Provide You New Design Fashion Clothes</p>
+
+    </div>
+
+<div class="product-container">
+
+    <div class="product-box">
+
+        <div class="product-img">
+                <a href="acc.html" class="add-card">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+           
+                <img src="/shop/images/men-ac/1.jpg"/>
+        </div>
+
+           <div class="product-details">
+               <a href="acc.html" class="p-name"> SAC </a>
+                  <span class="p-price"> 200.00 MAD </span>
+           </div>
+    </div> <div class="product-box">
+
+        <div class="product-img">
+                <a href="acc2.html" class="add-card">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+           
+                <img src="/shop/images/men-ac/2.jpg"/>
+        </div>
+
+           <div class="product-details">
+               <a href="acc2.html" class="p-name"> CASQUETTE </a>
+                  <span class="p-price"> 120.00 MAD </span>
+
+           </div>
+    </div>
+    <div class="product-box">
+
+        <div class="product-img">
+                <a href="acc3.html" class="add-card">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                
+                <img src="/shop/images/men-ac/3.jpg"/>
+
+        </div>
+
+           <div class="product-details">
+               <a href="acc3.html" class="p-name"> PORTE MONNAIE </a>
+                  <span class="p-price"> 60.00 MAD </span>
+           </div>
+    </div>
+    <div class="product-box">
+
+        <div class="product-img">
+                <a href="acc4.html" class="add-card">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+           
+                <img src="/shop/images/men-ac/4.jpg"/>
+        </div>
+
+           <div class="product-details">
+               <a href="acc4.html" class="p-name"> CHAPEAU </a>
+                  <span class="p-price"> 98.00 MAD </span>
+           </div>
+    </div>
+</div>
+<div class="banner-box f-slide-3">
+      
+    <div class="banner-text-container">
+
+           <div class="banner-text">
+               <span>limite offer</span>
+               <strong>30% off <br> with <font>promo code</font> </strong>
+            <a href="#" class="banner-btn"> shop now </a>
+          </div>
+    </div>
+  </div>
+
+
+<!--service-->
+<section class="services">
+    <!--box1-->
+    <div class="services-box">
+        <i class="fas fa-shipping-fast"></i>
+            <span> Free Shipping </span>
+            <p>Free Shipping For All</p>
+    </div>
+     <!--box2-->
+     <div class="services-box">
+        <i class="fas fa-headphones-alt"></i>
+            <span> 24:7 </span>
+            <p>SUPPORT 24h a day</p>
+    </div>
+     <!--box3-->
+     <div class=" services-box" >
+        <i class="fas fa-sync"></i>
+            <span> money back </span>
+            <p>30 day to Return</p>
+    </div>
+</section>
+</section>
+
+<footer>
+    
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="Example@gmail.com" required/>
+                <input type="submit" value="subscribe">
+            </form>
+        </div>
+        <span class="copyright">
+            copyright 2023 - Goingtointernet
+    </span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+
+<script>
+        var MainImg =document.getElementById('MainImg');
+        var smallimg =document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick=function(){
+        MainImg.src=smallimg[0].src;
+    }
+    smallimg[1].onclick=function(){
+        MainImg.src=smallimg[1].src;
+    }
+    smallimg[2].onclick=function(){
+        MainImg.src=smallimg[2].src;
+    }
+
+
+
+</script>
+
+
+
+</body>
+</html>
